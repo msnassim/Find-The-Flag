@@ -51,7 +51,7 @@
     }
    if(!empty($errors)){    
         $_SESSION['erreurs'] = $errors;
-        header("Location: ../view/inscription.php");
+        header('Location: ../view/inscription.php');
    }else{           
             require('connectSQL.php');
             $sql="INSERT INTO users(pseudo,nom,email,pass) VALUES (:pseudo,:nom,:email,:pass)";

@@ -16,12 +16,25 @@
                 <li class="nav-item">
                   <a class="nav-link" href="jouer.php"><i class="fas fa-gamepad"></i> Jouer</a>
                 </li>
+                <?php  if( (empty($_SESSION['user'])) || (!isset($_SESSION['user'])) ) {?>
                 <li class="nav-item">
                   <a class="nav-link" href="inscription.php"><i class="fas fa-log-on"></i><i class="fas fa-user-plus"></i> S'inscrire</a>
                 </li>
+                <?php } else { ?>
+                  <li class="nav-item">
+                  <a class="nav-link" href="../control/disconnect.php"><i class="fas fa-sign-out-alt"></i>Se deconnecter</a>
+                  </li>
+                <?php } ?>
+
+                <?php  if( (empty($_SESSION['user'])) || (!isset($_SESSION['user'])) ) {?>
                 <li class="nav-item">
                     <a class="nav-link" href="connexion.php"><i class="fas fa-sign-in-alt"></i> </i>Se connecter</span></a>
                 </li>
+                <?php } else { ?>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#">Bienvenue <?php echo $_SESSION['user'];?> </span></a>
+                  <?php } ?>
+                  </li>
               </ul>
             </div>
           </nav>

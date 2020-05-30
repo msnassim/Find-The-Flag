@@ -26,12 +26,12 @@
             </div>
             <button type="submit" class="btn btn-primary"> S'inscrire </button>
         </form>
-        <p>Déja inscrit ? <a href="connexion.php" target="_blank">Se connecter ici</a>
-    </div>
-    <?php 
+        <p>Déja inscrit ? <a href="connexion.php" target="_self">Se connecter ici</a>
+
+
+<?php 
     session_start();
-    ?>
-    <?php if(!empty($_SESSION['erreurs'])){ ?>
+     if(!empty($_SESSION['erreurs'])){ ?>
         <div class="alert alert-danger">
             <p>Vous n'avez pas rempli le formulaire correctement </p>
             <ul>  
@@ -41,9 +41,22 @@
                 } ?>
             </ul>
         </div>
-    <?php } ?>
-<?php session_destroy();  ?>
+<?php } 
+session_destroy();  ?>
+    </div>
+
 </div>
 
 </body>
-<?php require("footer.php"); ?>
+</body>
+<section id="footer2">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12 footer-box">
+            <p>FIND THE COUNTRY </p>
+            <p> NAIT SAADA Tarek & MESSAOUDI Nassim</p>
+            </div>
+        </div>
+    </div>
+</section>
+</html>

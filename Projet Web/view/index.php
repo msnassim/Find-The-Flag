@@ -1,4 +1,6 @@
-<?php require("header.php"); ?>
+<?php 
+session_start();
+require("header.php"); ?>
 <title> Jeu des drapeaux</title>
 </head>
 <?php require("navbar.php"); ?>
@@ -65,4 +67,15 @@
     var scroll= new SmoothScroll('a[href*="#"]');
 </script>
 
-<?php require("footer.php"); ?>
+</body>
+<section id="footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12 footer-box">
+            <p>FIND THE COUNTRY </p>
+            <p> NAIT SAADA Tarek & MESSAOUDI Nassim</p>
+            </div>
+        </div>
+    </div>
+</section>
+</html>
