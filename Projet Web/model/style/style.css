@@ -1,0 +1,274 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.navbar
+{
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(63, 95, 241));
+    padding: 5  !important;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+
+}
+.navbar-brand
+{
+    color : #fff !important;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: 500;
+}
+.navbar-brand img 
+{
+    height: 33px;
+}
+.navbar-nav li
+{
+    padding: 0 15px;
+}
+.navbar-nav li a{
+    color : #fff !important;
+    font-weight: 500;
+    text-align: center;
+}
+.fa-bars
+{
+    color: #fff;
+}
+#banner
+{
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(63, 95, 241));
+    color: #fff;
+    padding-top: 5%;
+}
+.game-title
+{
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 100;
+}
+.bottom-img
+{
+    width: 100%;
+}
+#lejeu ul li 
+{
+    margin: 15px 0;
+}
+#lejeu img
+{
+    margin-top: 50px;
+}
+.title::before
+{
+     content:'';
+     background: #5900ff;
+     height: 5px;
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     transform: translateY(63px);
+}
+.title::after
+{
+     content:'';
+     background: #5900ff;
+     height: 10px;
+     width: 60px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 40px;
+     display: block;
+     transform: translateY(8px);
+}
+#lejeu .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border:none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(63, 95, 241));
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#footer
+{
+    margin-top: 100px;
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(63, 95, 241));
+    color: #fff;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: 600;
+}
+.footer-box
+{
+    padding: 20px;
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: auto;
+}
+#connect .btn-primary
+{
+    padding: 8px 25px;
+    border:none;
+    border-radius: 10px;
+    display: block;
+    margin : auto;
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(63, 95, 241));
+}
+#footer2
+{
+    margin-top: 100px;
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(63, 95, 241));
+    color: #fff;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+     left: 0;
+      right: 0;
+}
+
+.question
+{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+.title2::before
+{
+     content:'';
+     background: #5900ff;
+     height: 5px;
+     width: 200px;
+     margin-left: -50px;
+     display: block;
+     transform: translateY(38px);    
+}
+.question2
+{
+    margin-left: 0px;
+    margin-top: 10px;
+    color: rgb(16, 4, 94);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+#maDiv
+{
+    margin-top: 20px;
+    display: block;
+    width: 700px; 
+    height: 550px;
+}
+.game-but{
+    box-shadow: none;
+    padding: 8px 25px;
+    border:none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(63, 95, 241));
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+.body1{
+   background-color: rgba(154, 150, 179, 0.226);
+}
+#flag{
+    margin-left: -50px;
+    width: 300px;
+    height: 180px;
+}
+.reponse{
+    margin-top: -80px;
+}
+.description{
+    margin-left: -80px;
+    margin-top: 0px;
+    margin-right: 50px;
+    color: rgb(16, 4, 94);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 16px;
+}
+.msgrep{
+    margin-left: -80px;
+    margin-top: 10px;
+    margin-right: 50px;
+    color: rgb(16, 4, 94);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 22px;
+}
+#score{
+    transform: translateY(-140px);    
+    margin-left: 150px;
+    text-align: center;
+    color: rgb(16, 4, 94);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 30px;
+}
+#carroussel{
+    margin-right: 150px;
+}
+.mySlides {
+    display:none;
+}
+#end{
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgba(91, 15, 126, 0.918);
+}
+#select{
+    margin-top: 250px;   
+    color: rgba(91, 15, 126, 0.918);
+}
+#list{
+    margin-bottom: 250px;
+    width: 300px;
+}
+#supbutton{
+    background-image: linear-gradient(to left,rgb(235, 124, 124),rgb(235, 124, 124));
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    padding: 5px 25px;
+    border:none;
+    border-radius: 15px;
+}
+#addques{
+    box-shadow: none;
+    padding: 8px 25px;
+    border:none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,rgb(226, 124, 235),rgb(63, 95, 241));
+    margin-bottom: 15px;
+}
+#inddiv{
+    margin-bottom: 250px;
+}
+#indice_but{
+    box-shadow: none;
+    padding: 8px 30px;
+    border:none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,rgb(231, 124, 235),rgb(176, 63, 241));
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+#ind{
+    font-size: 20px;
+}
+

@@ -1,0 +1,82 @@
+[
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "question" : "Quel est le pays qui correspond au drapeau ?",
+                    "pays" : {  "name" : "Algérie",
+                                "polygone" : "../model/countries/data/dza.geo.json",
+                                "flag" : "../model/countries/data/dza.svg",
+                                "code": "DZA",
+                                "description": "L'Algérie (en arabe : الجزائر), en forme longue et officielle la République algérienne démocratique populaire, est un pays d'Afrique du Nord situé en bordure de la mer Méditerranée. Sa capitale est Alger. C'est le pays le plus étendu d'Afrique, du monde arabe et du bassin méditerranéen.\nL'Algérie se situe dans le Maghreb, en Afrique du Nord. Elle est bordée au nord par la mer Méditerranée et 80 % de son territoire est constitué par le désert du Sahara au sud. Les 20 % restants sont principalement formés par la chaîne montagneuse de l'Atlas, couverte d'une végétation naturelle et de cultures méditerranéennes qui poussent grâce au climat en vigueur.",
+                                "indice" : "L'Algérie est l'un des plus grands pays d'Afrique",
+                                "image": "../model/pictures/Algérie"
+                             }
+                }
+            },
+
+            {
+                "type": "Feature",
+                "properties": {
+                    "question" : "Quel est le pays qui correspond au drapeau ?",
+                    "pays" : {  "name" : "États-Unis",
+                                "polygone" : "../model/countries/data/usa.geo.json",
+                                "flag" : "../model/countries/data/usa.svg",
+                                "code": "USA",
+                                "description": "Les États-Unis (forme courte et courante ; en anglais : United States), ou États-Unis d'Amérique (forme longue, en anglais United States of America / « USA »), sont un pays regroupant cinquante États et un district (c'est un État fédéral, comme l'Allemagne). Quarante-huit de ces cinquante États sont situés au sud du Canada et au nord du Mexique. L'Alaska est située à l'ouest du Canada. Hawaï est dans l'océan Pacifique. La capitale est Washington DC et les habitants, appelés Américains depuis le xxe siècle, sont parfois appelés États-Uniens . Les États-Unis sont une grande puissance politique, militaire, économique et culturelle. La monnaie est le dollar et la langue la plus parlée l'anglais.",
+                                "indice" : "Puissance mondiale",
+                                "image": "../model/pictures/États-Unis"
+                             }
+                }
+            },
+            
+            {
+                "type": "Feature",
+                "properties": {
+                    "question" : "Quel est le pays qui correspond au drapeau ?",
+                    "pays" : {  "name" : "France",
+                                "polygone" : "../model/countries/data/fra.geo.json",
+                                "flag" : "../model/countries/data/fra.svg",
+                                "code": "FRA",
+                                "description": "La France, ou la République française (nom officiel), est un pays situé à l'ouest du continent européen. Elle a également des territoires sur tous les autres continents (sauf en Asie) : Saint-Pierre-et-Miquelon, Clipperton, Saint-Martin, Saint-Barthélemy, la Guadeloupe, la Martinique et la Guyane en Amérique, Mayotte et La Réunion en Afrique, la Polynésie française, la Nouvelle-Calédonie et Wallis-et-Futuna en Océanie, quelques îles et îlots inhabités dans l'océan Indien et un territoire en Antarctique, la Terre Adélie. Son territoire s'étend sur plus de 640 000 km² dont 120 000 en Outre-mer. Sa capitale est Paris.",
+                                "indice" : "Frommage et vin",
+                                "image": "../model/pictures/France"
+                             }
+                }
+            },
+            
+            {
+                "type": "Feature",
+                "properties": {
+                    "question" : "Quel est le pays qui correspond au drapeau ?",
+                    "pays" : {  "name" : "Russie",
+                                "polygone" : "../model/countries/data/rus.geo.json",
+                                "flag" : "../model/countries/data/rus.svg",
+                                "code": "RUS",
+                                "description": "La Russie (forme courante ; en russe : Россия) ou Fédération de Russie (forme officielle) est le plus vaste État du monde, qui a pour particularité de s'étendre sur deux continents, pour un quart l'Europe (où se trouve sa capitale Moscou) et pour les trois quarts l'Asie. Cependant, il est traditionnellement considéré que la Russie est un pays européen (d'ailleurs, 78 % de sa population vit dans la partie européenne).\nLa Russie est membre fondateur de la Communauté des États indépendants (CEI), membre permanent du Conseil de sécurité des Nations unies, ainsi que membre du G8 et du Conseil de l'Europe.\nIl y avait 146,9 millions de Russes en 2018. Le pays est une république fédérale dirigée par un président.\nLes habitants de la Russie sont appelés les Russes.",
+                                "indice" : "Union soviétique",
+                                "image": "../model/pictures/Russie"
+                             }
+                }
+            },
+            
+            {
+                "type": "Feature",
+                "properties": {
+                    "question" : "Quel est le pays qui correspond au drapeau ?",
+                    "pays" : {  "name" : "Allemagne",
+                                "polygone" : "../model/countries/data/deu.geo.json",
+                                "flag" : "../model/countries/data/deu.svg",
+                                "code": "DEU",
+                                "description": "L'Allemagne (en allemand : Deutschland), en forme longue République fédérale d'Allemagne est l'un des principaux pays de l'Europe de l'Ouest, ainsi que l'un des membres de l'Union européenne et de la zone euro.\nSa capitale est Berlin et sa langue officielle est l'allemand.\nL'Allemagne compte 83 millions d'habitants en 2018.\nSa fête nationale est le « Tag der Deutschen Einheit » (jour de l'unité allemande). C'est le 3 octobre.\nL'Allemagne est une république fédérale. Le pays est divisé en Länder1, des États régionaux très autonomes. Il en existe seize, dont cinq situés dans l'ancienne Allemagne de l'Est.",
+                                "indice" : "Audi",
+                                "image": "../model/pictures/Allemagne"
+                             }
+                }
+            } 
+           
+        ]
+    }
+]
