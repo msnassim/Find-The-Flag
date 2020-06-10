@@ -1,7 +1,7 @@
 # Projet-WEB
 Jeu des drapeaux
 
-DB : FTF 
+DB : ftf
 
 
 NAIT SAADA Tarek 
