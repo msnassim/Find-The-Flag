@@ -16,7 +16,7 @@
       - dbname : ftf (vous devez créer cette base de données avec ce nom là et importer à l'intérieur ftf.sql)
       - dbfile : ftf.sql
 
-# Identifiant compte Admin dans le Jeu 
+# Identifiants compte Admin dans le Jeu 
    
    user : admin 
    password : admin123
@@ -25,4 +25,4 @@
 # Créateurs 
 NAIT SAADA Tarek & MESSAOUDI NASSIM 
 
-
+Enjoy ! 
