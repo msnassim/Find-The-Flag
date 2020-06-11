@@ -31,8 +31,8 @@ http://127.0.0.1/Projet%20Web/view/
 
 # Identifiants compte Admin dans le Jeu 
    
-   user : admin 
-   password : admin123
+   user : <code>admin</code> &
+   password : <code>admin123</code>
 
 
 # Créateurs 
