@@ -6,9 +6,9 @@ Jeu des drapeaux
 
 ## Compte Administrateur dans le Jeu :
 
-  ### Pseudo: admin 
+   Pseudo: admin 
 
-  ### Mdp : admin123
+   Mdp : admin123
 
 
 NAIT SAADA Tarek & MESSAOUDI NASSIM 
