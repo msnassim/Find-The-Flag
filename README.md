@@ -6,7 +6,7 @@ Jeu des drapeaux
 
 ## Compte Administrateur dans le Jeu :
 
-   Pseudo: admin 
+   Pseudo : admin 
 
    Mdp : admin123
 
