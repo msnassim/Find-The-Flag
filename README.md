@@ -1,7 +1,12 @@
 # Description du projet
 
-  Find-The-Flag est un jeu de géographgie où il faut tout simplement trouver le pays associé à chaque drapeau (en le selectionnant dans la carte du monde). Ce jeu a été réalisé avec HTML/CSS/PHP/JS/Bootstrap. Le jeu est interactif avec possibilité d'inscription ou pas.
+  Find-The-Flag est un jeu de géographgie où il faut tout simplement trouver le pays associé à chaque drapeau (en le selectionnant dans la carte du monde). Ce jeu a été réalisé avec HTML/CSS/PHP/JS/Bootstrap. Le jeu est interactif avec possibilité d'inscription ou pas. Je vous laisse découvrir le reste ! 
 
+# Entry point
+
+Le site est disponbile en entrant cette adresse dans votre navigateur (en supposant que vous copiez le présent répertoire dans www/):
+
+http://127.0.0.1/Projet%20Web/view/
 # Librairies utilisées
 
 - Leaflet.
@@ -9,10 +14,10 @@
 - JQuery & Ajax.
 
 # Dépendances
-- WAAMP Server.
+- WAMP Server (Soit WampServer sur Windows 
 
-  ### import database
-  Vous devez aussi importer la database à partir de <code>ftf.sql</code>, mais avant il faut créer un table avec le nom ftf : 
+ ### import database
+   - Vous devez aussi importer la database à partir de <code>ftf.sql</code>, mais avant il faut créer un table avec le nom ftf : 
       - dbname : ftf (vous devez créer cette base de données avec ce nom là et importer à l'intérieur ftf.sql)
       - dbfile : ftf.sql
 
