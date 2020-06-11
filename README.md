@@ -5,6 +5,13 @@ DB : ftf
 
 
 
+
+
+
+
+
+
+
 Compte Administrateur dans le Jeu :
 
 Pseudo: admin 
