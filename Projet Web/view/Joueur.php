@@ -67,7 +67,7 @@ if(!(isset($_SESSION['user']))||(strcmp($_SESSION['user'],"admin")!==0))
 
                     },
                     error: function (err) {
-                        bootbox.alert("Pas de questions dans la base de données").find(".modal-dialog").addClass("modal-dialog-centered");
+                        bootbox.alert("Pas de joueur dans la base de données").find(".modal-dialog").addClass("modal-dialog-centered");
 					},
                 });
             });
@@ -82,16 +82,16 @@ if(!(isset($_SESSION['user']))||(strcmp($_SESSION['user'],"admin")!==0))
                                 type: 'post',
                                 data: {pseudo:val},
                                 success: function(){
-                                    bootbox.alert("Utilisateur supprimer").find(".modal-dialog").addClass("modal-dialog-centered");  
+                                    bootbox.alert("Utilisateur supprimé").find(".modal-dialog").addClass("modal-dialog-centered");  
                                     row.remove();                        
                                  },
                                 error : function(){
-                                    bootbox.alert("Utilisateur non supprimer").find(".modal-dialog").addClass("modal-dialog-centered");
+                                    bootbox.alert("Utilisateur non supprimé").find(".modal-dialog").addClass("modal-dialog-centered");
                                 }
                         });
                     }
                     else
-                        bootbox.alert("Utilisateur non supprimer").find(".modal-dialog").addClass("modal-dialog-centered");
+                        bootbox.alert("Utilisateur non supprimé").find(".modal-dialog").addClass("modal-dialog-centered");
                 }).find(".modal-dialog").addClass("modal-dialog-centered");
 
 
