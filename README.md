@@ -1,10 +1,12 @@
+![Accueil](https://user-images.githubusercontent.com/56651736/84406641-1dedde00-ac0a-11ea-9d32-4b423edda466.PNG)
+
 # Description du projet
 
   Find-The-Flag est un jeu de géographgie où il faut tout simplement trouver le pays associé à chaque drapeau (en le selectionnant dans la carte du monde). Ce jeu a été réalisé avec HTML/CSS/PHP/JS/Bootstrap. Le jeu est interactif avec possibilité d'inscription ou pas. Je vous laisse découvrir le reste ! 
 
 # Entry point
 
-Le site est disponbile en entrant cette adresse dans votre navigateur (en supposant que vous copiez le présent répertoire dans www/):
+Le site est disponbile en entrant cette adresse dans votre navigateur (en supposant que vous copiez le contenu du présent répertoire dans www/):
 
 http://127.0.0.1/Projet%20Web/view/
 # Librairies utilisées
