@@ -12,7 +12,7 @@
 - WAAMP Server.
 
   ### import database
-    - Vous devez aussi importer la database à partir de <code>ftf.sql</code>, mais avant il faut créer un table avec le nom ftf : 
+  Vous devez aussi importer la database à partir de <code>ftf.sql</code>, mais avant il faut créer un table avec le nom ftf : 
       - dbname : ftf (vous devez créer cette base de données avec ce nom là et importer à l'intérieur ftf.sql)
       - dbfile : ftf.sql
 
