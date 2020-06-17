@@ -6,7 +6,7 @@
 
 # Entry point
 
-Le site est disponbile en entrant cette adresse dans votre navigateur (en supposant que vous copiez le contenu du présent répertoire dans www/):
+Le site est disponible en entrant cette adresse dans votre navigateur (en supposant que vous copiez le contenu du présent répertoire dans www/):
 
 http://127.0.0.1/Projet%20Web/view/
 
